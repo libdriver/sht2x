@@ -10,7 +10,7 @@
 
 Embedded in a reflow solderable dual-flat no-leads (DFN) package of 3 × 3 × 1.1 mm³, the SHT2x provides calibrated, linearized sensor signals in digital, I²C format. The SHT2x humidity sensor series contains a capacitive-type humidity sensor, a band-gap temperature sensor, and specialized analog and digital integrated circuits – all on a single CMOSens® chip. This yields superior sensor performance in terms of accuracy and stability as well as minimal power consumption. Every sensor is individually calibrated and tested. Lot identification is printed on the sensor and an electronic identification code is stored on the chip – which can be read out on command. Furthermore, the resolution of the SHT2x humidity sensor can be changed on command (8/12 bit up to 12/14 bit for RH/T) and a checksum helps to improve communication reliability. With this set of features and its proven reliability and long-term stability, the SHT2x humidity sensor series offers an outstanding price-performance ratio. To test a humidity sensor from the SHT2x series, two evaluation kits, EK-H4 and EK-H5, are available.
 
-LibDriver SHT2X is the full function driver of SHT2X launched by LibDriver.It provides functions of temperature and humidity reading and serial number reading. LibDriver is MISRA compliant.
+LibDriver SHT2X is a full-featured driver of SHT2X launched by LibDriver.It provides functions of temperature and humidity reading and serial number reading. LibDriver is MISRA compliant.
 
 ### Table of Contents
 
