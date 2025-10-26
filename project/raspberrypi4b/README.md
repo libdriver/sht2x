@@ -104,7 +104,6 @@ find_package(sht2x REQUIRED)
    sht2x (-t read | --test=read) [--times=<num>]
    ```
 
-
 6. Run sht2x read function, num is read times.
 
    ```shell
