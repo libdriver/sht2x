@@ -43,8 +43,8 @@ var group__sht2x__base__driver =
       [ "SHT2X_RESOLUTION_RH_11BIT_T_11BIT", "group__sht2x__base__driver.html#ggadb92dc8d4157d6bb7a236b4f5482330ba3c4ad39123d8cc2b790c6d15675808ef", null ]
     ] ],
     [ "sht2x_status_t", "group__sht2x__base__driver.html#gaa2e0afb4c4702316ea3c60ded9737c42", [
-      [ "SHT35_STATUS_VDD_OVER_2P25V", "group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a2efea476547eefb6a6664b5bbe93e389", null ],
-      [ "SHT35_STATUS_VDD_LESS_2P25V", "group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a23b01952dafa28e6218d77649437ec96", null ]
+      [ "SHT2X_STATUS_VDD_OVER_2P25V", "group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a3ca7a480b5d0f1fb545793c240d51462", null ],
+      [ "SHT2X_STATUS_VDD_LESS_2P25V", "group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a14b892bcdc891555a4481b4875362ea3", null ]
     ] ],
     [ "sht2x_deinit", "group__sht2x__base__driver.html#gacf11c22c7b11a30bea02acc12f025355", null ],
     [ "sht2x_get_disable_otp_reload", "group__sht2x__base__driver.html#ga6d6b357bce349f35ddd8ad3acc0e6bbf", null ],

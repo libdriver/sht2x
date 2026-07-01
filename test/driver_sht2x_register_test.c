@@ -326,7 +326,7 @@ uint8_t sht2x_register_test(void)
         
         return 1;
     }
-    sht2x_interface_debug_print("sht2x: check vdd 2.25v status %s.\n", (status == SHT35_STATUS_VDD_OVER_2P25V) ? "over" : "less");
+    sht2x_interface_debug_print("sht2x: check vdd 2.25v status %s.\n", (status == SHT2X_STATUS_VDD_OVER_2P25V) ? "over" : "less");
     
     /* sht2x_get_serial_number test */
     sht2x_interface_debug_print("sht2x: sht2x_get_serial_number test.\n");

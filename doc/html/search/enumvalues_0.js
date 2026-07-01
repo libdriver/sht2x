@@ -8,6 +8,6 @@ var searchData=
   ['sht2x_5fresolution_5frh_5f11bit_5ft_5f11bit_5',['SHT2X_RESOLUTION_RH_11BIT_T_11BIT',['../group__sht2x__base__driver.html#ggadb92dc8d4157d6bb7a236b4f5482330ba3c4ad39123d8cc2b790c6d15675808ef',1,'driver_sht2x.h']]],
   ['sht2x_5fresolution_5frh_5f12bit_5ft_5f14bit_6',['SHT2X_RESOLUTION_RH_12BIT_T_14BIT',['../group__sht2x__base__driver.html#ggadb92dc8d4157d6bb7a236b4f5482330ba3e22de9df47d51759d4c99e25da9bf04',1,'driver_sht2x.h']]],
   ['sht2x_5fresolution_5frh_5f8bit_5ft_5f12bit_7',['SHT2X_RESOLUTION_RH_8BIT_T_12BIT',['../group__sht2x__base__driver.html#ggadb92dc8d4157d6bb7a236b4f5482330bafec9ea9342d263b343587d0fa30c60b2',1,'driver_sht2x.h']]],
-  ['sht35_5fstatus_5fvdd_5fless_5f2p25v_8',['SHT35_STATUS_VDD_LESS_2P25V',['../group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a23b01952dafa28e6218d77649437ec96',1,'driver_sht2x.h']]],
-  ['sht35_5fstatus_5fvdd_5fover_5f2p25v_9',['SHT35_STATUS_VDD_OVER_2P25V',['../group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a2efea476547eefb6a6664b5bbe93e389',1,'driver_sht2x.h']]]
+  ['sht2x_5fstatus_5fvdd_5fless_5f2p25v_8',['SHT2X_STATUS_VDD_LESS_2P25V',['../group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a14b892bcdc891555a4481b4875362ea3',1,'driver_sht2x.h']]],
+  ['sht2x_5fstatus_5fvdd_5fover_5f2p25v_9',['SHT2X_STATUS_VDD_OVER_2P25V',['../group__sht2x__base__driver.html#ggaa2e0afb4c4702316ea3c60ded9737c42a3ca7a480b5d0f1fb545793c240d51462',1,'driver_sht2x.h']]]
 ];

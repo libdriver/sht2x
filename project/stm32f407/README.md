@@ -95,7 +95,7 @@ sht2x: min supply voltage is 2.1V.
 sht2x: max supply voltage is 3.6V.
 sht2x: max current is 0.33mA.
 sht2x: max temperature is 125.0C.
-sht2x: min temperature is -50.0C.
+sht2x: min temperature is -40.0C.
 ```
 
 ```shell
