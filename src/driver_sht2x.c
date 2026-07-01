@@ -44,7 +44,7 @@
 #define SUPPLY_VOLTAGE_MIN        2.1f                     /**< chip min supply voltage */
 #define SUPPLY_VOLTAGE_MAX        3.6f                     /**< chip max supply voltage */
 #define MAX_CURRENT               0.33f                    /**< chip max current */
-#define TEMPERATURE_MIN           -50.0f                   /**< chip min operating temperature */
+#define TEMPERATURE_MIN           -40.0f                   /**< chip min operating temperature */
 #define TEMPERATURE_MAX           125.0f                   /**< chip max operating temperature */
 #define DRIVER_VERSION            1000                     /**< driver version */
 
@@ -840,19 +840,19 @@ uint8_t sht2x_read(sht2x_handle_t *handle, uint16_t *temperature_raw, float *tem
            
             return 1;                                                                    /* return error */
         }
-        if (handle->resolution == SHT2X_RESOLUTION_RH_12BIT_T_14BIT)                     /* 14bit */
+        if (handle->resolution == SHT2X_RESOLUTION_RH_12BIT_T_14BIT)                     /* rh 12bit, t 14bit */
         {
             handle->delay_ms(86);                                                        /* delay 86ms */
         }
-        else if (handle->resolution == SHT2X_RESOLUTION_RH_8BIT_T_12BIT)                 /* 12bit */
+        else if (handle->resolution == SHT2X_RESOLUTION_RH_8BIT_T_12BIT)                 /* rh 8bit, t 12bit */
         {
             handle->delay_ms(23);                                                        /* delay 23ms */
         }
-        else if (handle->resolution == SHT2X_RESOLUTION_RH_10BIT_T_13BIT)                /* 13bit */
+        else if (handle->resolution == SHT2X_RESOLUTION_RH_10BIT_T_13BIT)                /* rh 10bit, t 13bit */
         {
             handle->delay_ms(44);                                                        /* delay 44ms */
         }
-        else                                                                             /* 11bit */
+        else
         {
             handle->delay_ms(12);                                                        /* delay 12ms */
         }
@@ -881,19 +881,19 @@ uint8_t sht2x_read(sht2x_handle_t *handle, uint16_t *temperature_raw, float *tem
            
             return 1;                                                                    /* return error */
         }
-        if (handle->resolution == SHT2X_RESOLUTION_RH_12BIT_T_14BIT)                     /* 12bit */
+        if (handle->resolution == SHT2X_RESOLUTION_RH_12BIT_T_14BIT)                     /* rh 12bit, t 14bit */
         {
             handle->delay_ms(30);                                                        /* delay 30ms */
         }
-        else if (handle->resolution == SHT2X_RESOLUTION_RH_8BIT_T_12BIT)                 /* 18bit */
+        else if (handle->resolution == SHT2X_RESOLUTION_RH_8BIT_T_12BIT)                 /* rh 8bit, t 12bit */
         {
             handle->delay_ms(5);                                                         /* delay 5ms */
         }
-        else if (handle->resolution == SHT2X_RESOLUTION_RH_10BIT_T_13BIT)                /* 10bit */
+        else if (handle->resolution == SHT2X_RESOLUTION_RH_10BIT_T_13BIT)                /* rh 10bit, t 13bit */
         {
             handle->delay_ms(10);                                                        /* delay 10ms */
         }
-        else                                                                             /* 11bit */
+        else
         {
             handle->delay_ms(16);                                                        /* delay 16ms */
         }

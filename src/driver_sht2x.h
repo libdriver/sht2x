@@ -70,8 +70,8 @@ typedef enum
  */
 typedef enum  
 {
-    SHT35_STATUS_VDD_OVER_2P25V = 0,        /**< vdd > 2.25v */
-    SHT35_STATUS_VDD_LESS_2P25V = 1,        /**< vdd < 2.25v */
+    SHT2X_STATUS_VDD_OVER_2P25V = 0,        /**< vdd > 2.25v */
+    SHT2X_STATUS_VDD_LESS_2P25V = 1,        /**< vdd < 2.25v */
 } sht2x_status_t;
 
 /**
