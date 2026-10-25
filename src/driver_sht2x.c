@@ -400,6 +400,7 @@ uint8_t sht2x_soft_reset(sht2x_handle_t *handle)
         return 1;                                                     /* return error */
     }
     handle->delay_ms(15);                                             /* delay 15ms */
+    handle->resolution = SHT2X_RESOLUTION_RH_12BIT_T_14BIT;           /* set default resolution */
     
     return 0;                                                         /* success return 0 */
 }
